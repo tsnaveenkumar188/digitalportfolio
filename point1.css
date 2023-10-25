@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "poppins", sans-serif;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  min-height: 100vh;
+  background-image: url("college1.png");
+  background-position: center;
+  background-size: cover;
+  box-shadow: peru;
+}
+body.h4{
+    text-align: center;
+}
+a {
+  text-decoration: aqua;
+  text size: 45px;
+}
+h6{
+  size: 100px;
+   text-align: center;
+   color: rgba(81, 126, 9, 0.705);;
+}
+h5{
+  text-align: center;
+   color: rgba(226, 241, 7, 0.705);;
+}
+
+.wrapper {
+  width: 420px;
+  background: transparent;
+  color: rgb(233, 7, 7);
+  border: 20px solid rgba(225, 225, 225, 0.2);
+  border-radius: 50px;
+}
+.wrapper h1 {
+  font-size: 36px;
+  text-align: center;
+}
+.wrapper .input-box {
+  width: 100%;
+  background: rgb(82, 97, 57);
+  hight: 50px;
+  margin: 30px 0;
+}
+.input-box input {
+  border: 2px solid rgba(225, 225, 225, 0.2);
+  border-radius: 40px;
+}
+.remember-forget a:hover {
+  text-decoration: underline;
+}
+.wrapper .btn {
+  width: 100%;
+  height: 45px;
+  background: white;
+  border: none;
+  outline: none;
+  border-radius: 40px;
+}
+ol{
+    text-align:none;
+     color: rgb(12, 168, 142) ;
+}
+.wrapper .bttn {
+ text-align: justify;
+  width: 50%;
+  height: 45px;
+  background: rgb(102, 8, 136);
+  border: navajowhite;
+  outline: aqua;
+  border-radius: 20px;
+
+}
